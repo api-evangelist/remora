@@ -1,8 +1,24 @@
 aid: remora
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/remora.png
 name: Remora
-description: Remora is a company surfaced as a portfolio company of union-square-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Remora is a carbon-capture startup (legally Echeneidae Inc.) founded in 2020 and based in
+  Wixom, Michigan, that retrofits semi-trucks and locomotives with zero-backpressure devices which extract
+  and purify up to 90 percent of the CO2 from vehicle exhaust while cutting other pollutants. The company
+  then sells the captured, purified carbon dioxide and shares the resulting revenue with the transportation
+  operators it partners with. Remora is a hardware and climate-technology business with no public API or
+  developer platform; this profile tracks it as an API Evangelist network company for portfolio and
+  discovery purposes.
 url: https://raw.githubusercontent.com/api-evangelist/remora/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Carbon Capture
+- Climate Tech
+- Transportation
+- Emissions
+- Sustainability
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +46,14 @@ maintainers:
 common:
 - type: Website
   url: https://www.remoracarbon.com
+- type: HelpCenter
+  url: https://remoracarbon.com/faq/
+- type: PrivacyPolicy
+  url: https://remoracarbon.com/privacy-policy/
+- type: DomainSecurity
+  url: security/remora-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
