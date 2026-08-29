@@ -31,6 +31,9 @@ description: Remora is a carbon-capture startup (legally Echeneidae Inc.) founde
   developer platform; this profile tracks it as an API Evangelist network company for portfolio and
   discovery purposes.
 url: https://raw.githubusercontent.com/api-evangelist/remora/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Remora is a hardware and climate-technology business with no public API or developer platform; this profile tracks it as an API Evangelist network company for portfolio and discovery purposes."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
